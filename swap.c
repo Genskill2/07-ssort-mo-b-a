@@ -3,7 +3,7 @@
 void swap_max(int x[], int l, int n)
   {
       int max=x[n];
-      int index=0;
+      int index=n;
       
       for(int i=n;i<l;i++)
       {
